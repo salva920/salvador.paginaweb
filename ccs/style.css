@@ -1,0 +1,80 @@
+    * {
+        box-sizing: border-box
+    }
+    
+    .lateral {
+        background-color: aquamarine;
+        bottom: 0;
+        left: 0;
+        position: fixed;
+        padding: 1em;
+        top: 0;
+        width: 350px;
+    }
+    
+    .perfil_circulo {
+        border-radius: 50%;
+        width: 50px;
+        overflow: hidden;
+        margin: 0;
+        height: 50px;
+    }
+    
+    .perfil_foto {
+        width: 100%;
+    }
+    
+    .perfil_nombre {
+        color: rgb(0, 0, 0);
+        font-size: 20px;
+        margin-left: 1em;
+    }
+    
+    .perfil_nombre,
+    .perfil_circulo {
+        display: inline-block;
+        vertical-align: middle;
+    }
+    
+    .informacion {
+        position: absolute;
+        color: rgb(0, 0, 0);
+        bottom: 1em;
+    }
+    
+    .informacion_titulo {
+        font-size: 18px;
+    }
+    
+    .conocimientos {
+        background-color: blue;
+        color: cornsilk;
+        display: inline-block;
+        font-size: 12px;
+        padding: 0.5em;
+        text-transform: uppercase;
+    }
+    
+    .conocimientos {
+        padding: 0;
+    }
+    
+    .proyecto {
+        margin-left: 350px;
+        padding: 1em;
+        display: table;
+    }
+    
+    .proyecto_titulo {
+        color: darkcyan;
+        font-size: 18px;
+    }
+    
+    .conocimientos--proyecto {
+        background-color: blue;
+        color: cornsilk;
+        display: inline-block;
+        font-size: 12px;
+        padding: 0.5em;
+        text-transform: uppercase;
+    }
